@@ -1,0 +1,28 @@
+{
+  "name": "header-parser-api",
+  "version": "1.0.0",
+  "description": "An Express.js API that gets the user's current IP address, set language, and operating system.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnchris/header-parser-api.git"
+  },
+  "author": "autumnchris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autumnchris/header-parser-api/issues"
+  },
+  "homepage": "https://autumnchris-header-parser-api.onrender.com/api",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
